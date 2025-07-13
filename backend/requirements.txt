@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pillow
+pdf2image
+pytesseract
+python-multipart
+transformers
+torch
+numpy==1.26.4

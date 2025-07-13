@@ -1,0 +1,78 @@
+.app {
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+h1 {
+  color: #3f51b5;
+  margin-bottom: 20px;
+}
+
+.drop-zone {
+  border: 3px dashed #ccc;
+  padding: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: border 0.3s ease;
+  background: #fafafa;
+}
+
+.drop-zone.active {
+  border-color: #3f51b5;
+  background-color: #f0f4ff;
+}
+
+.drop-zone input[type="file"] {
+  margin-top: 10px;
+}
+
+.filename {
+  margin: 10px 0;
+  font-weight: bold;
+  color: #333;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background: #3f51b5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #999;
+  cursor: wait;
+}
+
+.json-output {
+  text-align: left;
+  background: #f4f4f4;
+  padding: 20px;
+  margin-top: 20px;
+  font-family: monospace;
+  max-height: 400px;
+  overflow-y: scroll;
+  white-space: pre-wrap;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+.download-btn {
+  background: #2e7d32;
+  margin-top: 10px;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.download-btn:hover {
+  background-color: #1b5e20;
+}
